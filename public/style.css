@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+}
+.recipe {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  display: inline-block;
+  background-color: #6daae8; /* Blue background color */
+  color: #fff; /* White text color */
+}
+.recipe h3 {
+  font-size: 18px;
+}
+.recipe ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Recipe hover styles */
+.recipe:hover {
+  background-color: #c3d6e3; /* Yellow background color on hover */
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: #007BFF; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Link styles */
+nav a {
+  text-decoration: none; /* Remove underlines from links */
+  color: #fff; /* White link text color */
+  transition: color 0.2s; /* Smooth color transition for hover effect */
+}
+
+/* Link hover styles */
+nav a:hover {
+  color: #FED02F; /* Yellow link text color on hover */
+}
+
+/* Footer styles */
+footer {
+  background-color: #007BFF; /* Blue background color */
+  color: #fff; /* White text color */
+  padding: 10px;
+  text-align: center;
+}
